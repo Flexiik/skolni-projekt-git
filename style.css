@@ -1,0 +1,32 @@
+header{
+    background-color: rgb(187, 12, 12);
+    height: 100px;
+}
+h1 {
+    text-align: left;
+    font-size: 95px;
+}
+h2{
+    font-size: 35px;
+    background-color: rgb(187, 12, 12);
+}
+body{
+    font-family: Calibri;
+    background-color: #2a2929;
+    color: White;
+    text-align: center; 
+    opacity: 0; 
+    animation: fadeIn 1s ease-in-out;     
+}
+p{
+    font-size: 20px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+    }
+
+    to {
+        opacity: 1; 
+    }
+}
