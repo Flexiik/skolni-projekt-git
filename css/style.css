@@ -43,7 +43,3 @@ th, td {
     text-align: left;
     padding: 8px;
 }
-
-th:nth-child(3) {
-    background-color: #f2f2f2;
-}
