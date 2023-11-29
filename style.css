@@ -1,0 +1,50 @@
+header, footer{
+    background-color: rgb(187, 12, 12);
+    height: 100px;
+}
+h1 {
+    text-align: left;
+    font-size: 95px;
+}
+h2{
+    font-size: 35px;
+    background-color: rgb(187, 12, 12);
+}
+body{
+    font-family: Calibri;
+    background-color: #2a2929;
+    color: White;
+    text-align: center; 
+    opacity: 0; 
+    animation: fadeIn 1s ease-in-out;     
+}
+p{
+    font-size: 18px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+    }
+
+    to {
+        opacity: 1; 
+    }
+}
+.nav {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.nav:active {
+    transform: scale(0.95); 
+    transition: transform 0.2s ease-in-out; 
+}
+
+
