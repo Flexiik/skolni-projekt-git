@@ -33,6 +33,17 @@ a:hover {
     color: rgba(255, 255, 255, 0.846);
 }
 
-tr + td +td {
-    text-align: center;
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th:nth-child(3) {
+    background-color: #f2f2f2;
 }
